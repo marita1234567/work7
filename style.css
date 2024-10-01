@@ -1,0 +1,149 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MOM{
+    width: 1110px;
+    height: 572px;
+border: 5px solid blue;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-template-areas: 
+"daniel daniel daniel jonathan  kira "
+"daniel daniel daniel  jonathan kira"
+"daniel daniel daniel  jonathan kira"
+"janette patrick patrick patrick kira"
+"janette patrick patrick patrick kira";
+gap: 20px;
+padding: 20px;
+}
+.baby{
+    background-color: rgb(222, 68, 222);
+    display: grid;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    grid-area: daniel;
+}
+.baby2{
+    background-color: gray;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: jonathan;
+
+}
+.baby3{
+    background-color: rgb(192, 212, 229);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: kira;
+
+}
+.baby4{
+    background-color: rgb(38, 38, 239);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: janette;
+}
+.baby5{
+    background-color: rgb(154, 242, 242);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: patrick;
+}
+.text1{
+    font-family: Barlow Semi Condensed;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    
+
+
+}
+.paragraph1{
+    font-family: Barlow Semi Condensed;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    
+
+}
+.text2{
+    font-family: Barlow Semi Condensed;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    
+}
+.paragraph2{
+ 
+    font-family: Barlow Semi Condensed;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    
+
+}
+.text3{
+    font-family: Barlow Semi Condensed;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    
+
+}
+.paragraph3{
+    font-family: Barlow Semi Condensed;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    
+
+}
+.text4{
+    font-family: Barlow Semi Condensed;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+
+    
+}
+.paragraph4{
+    font-family: Barlow Semi Condensed;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    
+
+}
+.text5{
+    font-family: Barlow Semi Condensed;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+
+}
+.paragraph5{
+    font-family: Barlow Semi Condensed;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left; 
+}
+
